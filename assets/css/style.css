@@ -3,15 +3,15 @@
 }
 
 :root {
-  --primary: red;
-  --secondary: black;
-  --tertiary: rgb(75, 75, 75);
-  --grey: rgb(255, 255, 255);
-  font-size: 75%;
+  --primary: #44e9ff;
+  --secondary: #497980;
+  --tertiary: rgb(192, 246, 253);
+  --grey: #333;
+  font-size: 62.5%;
 }
 
 body {
-  background: var(--secondary);
+  background: #ededed;
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -161,7 +161,7 @@ footer {
   font-size: 1.4rem;
   padding: 5px 7px;
   margin: 3px;
-  background: var(--tertiary);
+  background: var(--secondary);
   color: #fff;
 }
 
